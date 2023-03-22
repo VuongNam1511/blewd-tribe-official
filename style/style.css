@@ -1,0 +1,253 @@
+/* reset CSS */
+
+.clear {
+    clear: both;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* importaint  */
+.text-white {
+    color: #fff !important;
+}
+
+html {
+    font-family: Lato, sans-serif ;
+}
+
+#main { 
+    
+
+}
+
+/* header */
+#header {
+    height: 46px;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+/* nav */
+#nav {
+    display: inline-block;
+}
+
+
+#nav .subnav li {
+    width: 100%;
+}
+
+#nav li {
+    display: inline-block;
+    position: relative;
+}
+#nav > li >a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#nav li a {
+   
+    text-decoration: none;
+    line-height: 46px;
+    padding-right: 24px;
+    padding-left: 24px;
+    display: block;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+
+#nav li:hover .subnav {
+    display: block;
+}
+
+#nav > li:hover > a {
+    color: #000;
+    background-color: #ccc;
+}
+
+
+#nav .subnav li:hover a{
+    color: #000;
+    background-color: #ccc;
+}
+
+#nav .subnav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 160px;
+    display: none;
+    background-color: #fff;
+    box-shadow: 0 0 8px #888888 ;
+}
+
+#nav .subnav a {
+    color: #000;
+    padding: 0 10px;
+    line-height: 38px;
+
+}
+
+ #nav .nav-arrow-down-icon {
+    font-size: 14px;
+} 
+
+/* mobile menu button */
+#header .mobile-menu-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+/* search button */
+#header .mobile-menu-button,
+#header .search-button {
+    float: right;
+    
+}
+
+#header .menu-button,
+#header .search-icon {
+    color: #fff;
+    font-size: 20px;
+    line-height: 46px;
+    padding: 0 21px;
+}
+
+#header .search-button:hover {
+    background-color: #f44336;
+    cursor: pointer;
+} 
+
+#header .mobile-menu-button:hover{
+    background-color: #ccc;
+}
+
+#header .mobile-menu-button .menu-button:hover{
+    color: #000;
+}
+
+
+
+/* slider */
+#slider {
+   margin-top: 46px;
+   padding-top: 50%;
+    background-image: url("../image/IMG_7528_Original.jpeg");
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+
+#slider .text-content {
+    position: absolute;
+    color: #fff;
+    bottom: 47px;
+    left: 50%;
+    transform: translateX( -50%);
+    text-align: center;
+}
+#slider .text-heading {
+    font-size: 24px;
+    font-family:"Segoe UI",Arial,sans-serif;
+    text-shadow: 0 0 8px #000 ;
+}
+#slider .text-dicription {
+    font-size: 15px;
+    margin-top: 25px;
+    text-shadow: 0 0 3px #000 ;
+}
+
+
+/* content */
+#content {
+
+}
+
+/* about-section */
+#content .content-section {
+    width: 800px;
+    max-width: 100%;
+    padding: 64px 16px;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-left: 8px;
+    padding-right: 8px; */
+}
+
+#content .section-heading {
+    font-family:"Segoe UI",Arial,sans-serif;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500; /* độ in đậm của chữ */
+    letter-spacing: 4px; /*Tăng giảm khoảnh cách giữa các ki tự*/
+}
+
+#content .section-sub-heading {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 25px;
+    font-style: italic;
+    opacity: 0.6; /* độ mờ độ trong suốt của phần tử */
+}
+
+#content .about-text {
+    font-size: 15px;
+    margin-top: 25px;
+    text-align: justify;
+    line-height: 1.5; /* khoảng cách giữu các dòng*/
+    font-weight: 100;
+    margin-bottom: 15px;
+
+}
+
+#content .member-list {
+    margin-top: 32px;
+    text-align: center;
+    overflow: hidden; /* khắc phục vấn để khi sd float */
+    
+
+}
+
+#content .member-item {
+    float: left;
+    width: calc(100%/4);
+}
+
+#content .member-name {
+    font-size: 15px;
+}
+
+#content .member-name p,a {
+    /* text-decoration: none; */
+    color: #000;
+}
+
+#content .member-img {
+    width: 154px;
+    border-radius: 4px;
+    margin-top: 15px; ;
+}
+
+/* donate-section */
+.donate-section {
+    background-color: #000;
+    height: 740px;
+}
+
+#contact {
+    height: 740px;
+}
+
+#footer {
+ 
+}
