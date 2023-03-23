@@ -228,7 +228,7 @@ html {
 }
 
 #content .member-name p,a {
-    /* text-decoration: none; */
+    text-decoration: none;
     color: #000;
 }
 
