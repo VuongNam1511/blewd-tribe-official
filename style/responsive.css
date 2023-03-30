@@ -9,7 +9,7 @@
 }
 
 /* Mobile */
-@media (max-width: 657px) {
+@media (max-width: 656px) {
     #header {
         overflow: hidden;
     }
